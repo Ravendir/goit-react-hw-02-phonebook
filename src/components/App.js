@@ -24,7 +24,7 @@ export default class App extends Component {
 
     if (identicalName) {
       alert(`${task.name} is already in contacts`);
-    } else if (task.name.length === 0) {
+    } else if (!task.name.length) {
       alert("Fields must be filled!");
     } else {
       const contact = {

@@ -5,7 +5,6 @@ import styles from "./ContactFormStyles.module.css";
 
 export default class ContactForm extends Component {
   state = {
-    contacts: [],
     name: "",
     number: "",
   };

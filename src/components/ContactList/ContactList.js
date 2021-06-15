@@ -6,7 +6,7 @@ const ContactList = ({ contacts, onRemoveContact }) => (
   <ul className={styles.contacts}>
     {contacts.map((contact) => (
       <li className={styles.list} key={contact.id}>
-        {contact.name + " " + ":" + " " + contact.number}
+        {contact.name} : {contact.number}
         {
           <button
             type="button"
